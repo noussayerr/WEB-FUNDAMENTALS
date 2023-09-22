@@ -1,0 +1,17 @@
+h1  {
+  background-color: black;  
+  color:aliceblue;
+  text-align: left;
+}
+h1 span{
+    color: rgb(2, 88, 164);
+    text-align: center;
+}
+h2{
+    background-color: blueviolet;
+}
+h3{
+    color: blueviolet;
+    text-align: right;
+    background-color: rgb(81, 127, 188);
+}
