@@ -1,0 +1,31 @@
+.Search {
+    color: #00ffd5;
+    border-radius: 10px;
+    background-color: #ffff;
+    border: 2px solid #00ffd5;
+    height: 40px;
+    width: 120px;
+}
+.create{
+    background-color: #2023dd;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: solid #000;
+}
+.pl{
+    background-color: #00ffd5;
+    border-radius: 100px ;
+    height: 40px;
+    color: #fff;
+    width:40px;
+    border: none;
+    
+}
+.Search , .create , .pl{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
