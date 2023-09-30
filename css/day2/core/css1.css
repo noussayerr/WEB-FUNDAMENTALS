@@ -1,0 +1,29 @@
+h1{
+    margin-bottom: 10px;
+}
+.container{
+    background-color:#d7d3d3ac;
+    width: 900px;
+    margin: 0 auto;/*center container */
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+.Block{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+.blue{
+    background-color: aqua;
+}
+.pink{
+    background-color: pink;
+}
+.white{
+    background-color: #ffff;
+}
+.octocat {
+    height: 200px;
+}
