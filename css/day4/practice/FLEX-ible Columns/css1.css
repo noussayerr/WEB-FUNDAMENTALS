@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    height: 80px;
+}
+.col{
+    flex: 1;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-right:10px ;
+    
+}
+.col-2{
+    flex: 3;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-right:10px ;
+}
+.col-3{
+    flex: 5;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-right:10px ;
+}
