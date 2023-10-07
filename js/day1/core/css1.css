@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    margin: 0px auto;
+    width: 900px;
+    font-family: cursive   ;
+}
+.nav{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    align-items: center ;
+    background-color: #CCCCCC;
+    height: 50px;
+}
+input[type="text"]{
+    width: 400px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.bt{
+    background-color:#2B78E4;
+    height: 30px;
+    width: 60px;
+    color: aliceblue;
+    font-family: cursive   ;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+p{
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+.container2{
+    margin-top: 20px;
+    text-align: center;
+    display:flex;
+}
+.ninja1{
+    border: 3px solid black;
+    width: 569px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+}
+.left-side{
+    margin-left: 30px;
+}
+.right-side{
+    margin-left: 60px;
+    text-align: left;
+}
+.bt2{
+    background-color:#FFD966;
+    height: 30px;
+    width: 80px;
+    color: black;
+    font-family: cursive   ;
+    border: 3px solid black;
+    box-shadow: 3px 3px black; 
+    margin-top: 10px;
+    font-weight:bold;
+}
+.djonary{
+    border: 3px solid black;
+    margin-left: 80px;
+    height: 150px;
+    width: 240px;
+}
+.bt3{
+    background-color:#93C47D;
+    font-weight:bold;
+    height: 30px;
+    width: 200px;
+    color:black;
+    font-family: cursive   ;
+    border: 3px solid black;
+    box-shadow: 3px 3px black; 
+    margin-top: 10px;
+}
+.ninja2{
+    border: 3px solid black;
+    width: 569px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
