@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header*/
+header{
+    border: 2px solid #F0F0F0;
+    border-radius: 5px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    display: flex;
+    border-right: 2px solid #F0F0F0;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    width: 100px;
+}
+.header-links   {
+    text-decoration: none;
+    color: black;
+}
+.icon1{
+    height: 42px;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+input{
+    height: 30px;
+}
+.search{
+    display: flex;
+    margin-right: 20px;
+  }
+/**/
+.icon2 {
+    background: url(search.png) no-repeat scroll 10px 10px;
+    padding-left:30px;
+    background-size: 15px;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+  }
+  .accordance10{
+    position: absolute;
+    bottom: 170px;
+    align-items: center;
+    width: 1200px;
+    height: 35px;
+    background-color: #414141;
+    display: flex;
+    gap: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/*main*/
+.container {
+    width: 1200px;
+    margin:20px auto;
+}
+.main-png{
+    margin-top: 10px;
+    width: 1200px;
+    height: 500px;
+}
+
+.white-p{
+    color: #ffffff;
+    padding-left: 20px;
+    border-right: 1px solid rgb(184, 178, 178);
+    transform: skew(-20deg);
+    padding-right: 20px;
+}
+.accordance-links{
+    color: #1c6ead;
+    border-right: 1px solid rgb(184, 178, 178);
+    transform: skew(-20deg);
+    padding-right: 20px;
+}
+/*box*/
+.col{
+    width: 1200px;
+    margin-top: 30px;
+    border: 2px solid rgb(184, 178, 178);
+    background-color: #F6F8F6;
+    height: 500px;
+}
+.col-top{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.col-title{
+    border-right:2px solid rgb(184, 178, 178) ;
+    width: 620px;
+    height: 50px;
+    color:  rgb(184, 178, 178);
+    align-items: center;
+    display: flex;
+
+}
+
+.col-main{
+    width: 1200px;
+    border-top: 2px solid rgb(184, 178, 178);
+    border-bottom:2px solid rgb(184, 178, 178) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col-main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    padding: 20px;
+}
+.box-title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.box-title>img{
+    width: 40px;
+    height: 30px;
+}
+.box-cont{
+    height: 200px;
+}
+.icon3{
+    width: 250px;
+    height: 150px;
+}
+
+/*bottom of the page*/
+.col-b-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.col-b{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    border-bottom:2px solid rgb(184, 178, 178) ;
+}
+.main-b{
+    border-top: 2px solid rgb(184, 178, 178) ;
+    padding-top: 10px;
+    width: 170px;
+    padding-bottom: 30px;
+}
+.page-b{
+    display: flex;
+    gap: 20px   ;
+    color: rgb(184, 178, 178) ;
+    padding-top: 20px;
+}
+/*buttons*/
+.bt5{
+    background-color: #1588e0;
+    color: #ffffff;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+.bt4{
+    height: 50px;
+    width: 400px;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c6ead;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.bt3{
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    transform: translate(-50%, -50%);  
+    height: 40px;
+    width: 140px;
+    color:#1c6ead;
+
+}
+.bt2{
+    position: absolute;
+    top: 55%;
+    left: 34%;    
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 140px;
+    color:#1c6ead;
+}
+.bt{
+    height: 30px;
+    background-image: url("send.png");
+    border: none;
+    background-size: cover; 
+    width: 30px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius: 50px;
+
+}
